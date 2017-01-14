@@ -3,4 +3,7 @@
   <component classname="org.example.follow.me.manager.impl.FollowMeManagerImpl" name="FollowMeManager">
     <provides specifications="org.example.follow.me.configuration.FollowMeConfiguration"/>
   </component>
+  <component classname="org.example.follow.me.manager.command.FollowManagerCommandImpl" name="FollowManagerCommand"/>
+  <instance component="FollowMeManager" name="FollowMeManager-1"/>
+  <instance component="FollowManagerCommand" name="FollowManagerCommand-2"/>
 </ipojo>
