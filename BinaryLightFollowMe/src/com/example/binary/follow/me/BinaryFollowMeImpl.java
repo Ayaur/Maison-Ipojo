@@ -234,7 +234,8 @@ public class BinaryFollowMeImpl implements DeviceListener, FollowMeConfiguration
 	}
 	
 	
-	//################ Méthod for the Interface FollowMeconfiguration####################
+	//%%%%%%%%%%%%%% Méthod for the Interface FollowMeconfiguration %%%%%%%%%%%%%%%%%%%%%%
+			//############## Number of light turn on per room ##############
 	@Override
 	public int getMaximumNumberOfLightsToTurnOn() {
 		return maxLightsToTurnOnPerRoom;
@@ -243,6 +244,20 @@ public class BinaryFollowMeImpl implements DeviceListener, FollowMeConfiguration
 	@Override
 	public void setMaximumNumberOfLightsToTurnOn(int maximumNumberOfLightsToTurnOn) {
 		maxLightsToTurnOnPerRoom = maximumNumberOfLightsToTurnOn;
+		
+	}
+
+	
+			//############## Energy allowed per room
+	@Override
+	public double getMaximumAllowedEnergyInRoom() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setMaximumAllowedEnergyInRoom(double maximumEnergy) {
+		// TODO Auto-generated method stub
 		
 	}
 

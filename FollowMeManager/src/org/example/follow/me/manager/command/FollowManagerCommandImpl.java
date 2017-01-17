@@ -48,7 +48,7 @@
             //call the administration service to configure it :
             m_administrationService.setIlluminancePreference(illuminanceGoal);
         }
-     
+        
         @Command
         public void getIlluminancePreference(){
             //TODO : implement the command that print the current value of the goal

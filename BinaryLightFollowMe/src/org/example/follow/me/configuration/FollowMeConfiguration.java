@@ -6,4 +6,9 @@
         public int getMaximumNumberOfLightsToTurnOn();
  
         public void setMaximumNumberOfLightsToTurnOn(int maximumNumberOfLightsToTurnOn);
+        
+        
+        public double getMaximumAllowedEnergyInRoom();
+        
+        public void setMaximumAllowedEnergyInRoom(double maximumEnergy);
     }

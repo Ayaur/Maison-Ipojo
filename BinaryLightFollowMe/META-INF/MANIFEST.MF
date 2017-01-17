@@ -99,5 +99,8 @@ iPOJO-Components: instance { $component="BinaryFollowMe" $name="Follow
  e="deviceRemoved" $arguments="{fr.liglab.adele.icasa.device.GenericDe
  vice}" $names="{arg0}" }method { $name="getMaximumNumberOfLightsToTur
  nOn" $return="int" }method { $name="setMaximumNumberOfLightsToTurnOn"
-  $arguments="{int}" $names="{maximumNumberOfLightsToTurnOn}" }}}
+  $arguments="{int}" $names="{maximumNumberOfLightsToTurnOn}" }method 
+ { $name="getMaximumAllowedEnergyInRoom" $return="double" }method { $n
+ ame="setMaximumAllowedEnergyInRoom" $arguments="{double}" $names="{ma
+ ximumEnergy}" }}}
 
